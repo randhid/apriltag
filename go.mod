@@ -1,4 +1,4 @@
-module github.com/raybjork/apriltag
+module github.com/randhid/apriltag
 
 go 1.23.2
 

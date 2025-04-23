@@ -66,6 +66,7 @@ func EstimateFramePoseWithNIterations(
 	nIterations int,
 ) (spatialmath.Pose, error) {
 	iterations = nIterations
+
 	pose, err := EstimateFramePose(ctx, a, pt, expectedTags, calibrationPositions, seedPose, collectNewData)
 	if err != nil {
 		return nil, err
